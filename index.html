@@ -1,0 +1,238 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Website</title>
+
+  <style>
+
+    * {box-sizing: border-box}
+    
+    body, html {
+      height:90vh;
+      width: 100%;
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .Pixel p{
+        font-size: 18px;
+        text-align: left;
+        padding-bottom: 20px;
+        width: 20%;
+        color: rgba(240, 255, 255, 0.753);
+        font-weight: 600;
+        
+    }
+    .Pixel h3 {
+        font-size: 70px;
+        text-align: left;
+        width: 25%;
+    }
+    
+    .Machine p{
+        font-size: 18px;
+        text-align: left;
+        padding-bottom: 20px;
+        width: 20%;
+        color: rgba(240, 255, 255, 0.753);
+        font-weight: 600;
+        margin-left: 700px;
+        
+    }
+    .Machine h3 {
+        font-size: 70px;
+        text-align: left;
+        width: 30%;
+        margin-left: 700px;
+    }
+    
+    
+    .Inference p{
+        font-size: 16px;
+        text-align:right;
+        padding-bottom: 20px;
+        width: 20%;
+        color: rgba(240, 255, 255, 0.753);
+        font-weight: 600;
+        margin-left: 800px;
+        
+    }
+    .Inference h3 {
+        font-size: 70px;
+        text-align: right;
+        width: 20%;
+        margin-left: 800px;
+    }
+    
+    
+    .VFX p{
+        font-size: 18px;
+        text-align: right;
+        padding-bottom: 20px;
+        padding-left: 80%;
+        color: rgba(240, 255, 255, 0.753);
+        font-weight: 600;
+        
+    }
+    .VFX h3 {
+        font-size: 70px;
+        text-align: right;
+        padding-left: 70%;
+        
+    }
+    
+    .extra{
+      font-size: 18px;
+        text-align: left;
+        padding-bottom: 20px;
+        width: 20%;
+        color: rgba(240, 255, 255, 0.753);
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    
+    
+    /* Style tab links */
+    .tablink {
+      background-color: #95b2c25e;
+      backdrop-filter: blur(5px);
+      color: rgb(0, 0, 0);
+      float: left;
+      border: none;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      margin-top: -45px;
+      font-size: 17px;
+      font-weight: 500;
+      width: 25%;
+    }
+    
+    .tablink:hover {
+      background-color: #7777772f;
+    }
+    
+    /* Style the tab content  */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 50px 50px;
+      height: 90vh;
+    }
+    .info{
+    
+    
+    }
+    #Pixel_Streaming {background-image: url("images/download\ \(76\).png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        text-align: center;
+    }
+    #MachineLearning {background-image:url("images/download\ \(75\).png");
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+        text-align: center;
+      }
+    #Inference_Service {background-image: url("images/download\ \(76\).png");
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+        text-align: center;
+      }
+    #VFX {background-image: url("images/download\ \(75\).png");
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+  <div id="Pixel_Streaming" class="tabcontent">
+    <div class="info">
+      <p class="extra">Weaverly enables the creation and delivery of intelligence that fuels innovation.</p>
+      <div class="Pixel">
+    <h3>Pixel Streaming</h3>
+    <p>Delivers fasta #redcel col, elmasry neededensive resource src nfrastructure overnac</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <div id="MachineLearning" class="tabcontent">
+    <div class="info">
+      <p class="extra">Weaverly enables the creation and delivery of intelligence that fuels innovation.</p>
+      <div class="Machine"> 
+    <h3>Machine Learning & AI</h3>
+    <p>Weaverny Cloud enables you to train, fineune and depigy models up 40 times faster offering the scalability and costiveness you need.</p> 
+  </div>
+  </div>
+  </div>
+  
+  <div id="Inference_Service" class="tabcontent">
+    <div class="info">
+      <p class="extra">Weaverly enables the creation and delivery of intelligence that fuels innovation.</p>
+      <div class="Inference">
+    <h3>Inference Service</h3>
+    <p>Weaverny Cloud enables you to train, fineune and depigy models up 40 times faster offering the scalability and costiveness you need.</p> 
+  </div>
+  </div>
+  </div>
+  
+  <div id="VFX" class="tabcontent">
+    <div class="info">
+      <p class="extra">Weaverly enables the creation and delivery of intelligence that fuels innovation.</p> 
+      <div class="VFX">
+    <h3>VFX & Rendering</h3>
+    <p>Weaverny Cloud enables you to train, fineune and depigy models up 40 times faster offering the scalability and costiveness you need.</p> 
+  </div>
+  </div>
+  </div>
+  
+  
+  <button class="tablink" onclick="openPage('Pixel_Streaming', this, 'White')">Pixel Streaming</button>
+  <button class="tablink" onclick="openPage('MachineLearning', this, 'White')" id="defaultOpen">Machine Learning & AI</button>
+  <button class="tablink" onclick="openPage('Inference_Service', this, 'White')">Inference Service</button>
+  <button class="tablink" onclick="openPage('VFX', this, 'White')">VFX & Rendering</button>
+  
+  
+  <script>
+  function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+     
+  </body>
+</html>
